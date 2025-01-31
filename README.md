@@ -1,9 +1,7 @@
 # Buzz Market
-#### Timothy Ninan
 
----
 ## Summary
----
+
 
 The Buzz Market project aims to create a comprehensive web application that facilitates the buying and selling of goods for Georgia Tech students. The marketplace is designed to be responsive and interactive, providing a seamless experience across different devices.
 
@@ -11,7 +9,9 @@ By enabling students to list and browse items within a verified ecosystem, we ho
 
 Flask in Python was used to create a RESTful backend API, ensuring robust communication pathways with Google Cloud Firestore, a NoSQL database, and Google Cloud Storage buckets for hosting images. Google Cloud Platform and App Engine serve as a scalable backend infrastructure. The frontend was developed using React, combined with HTML, CSS, and JavaScript to create a dynamic and interactive user interface. Bootstrap was integrated as a frontend library to streamline the design process. GitHub and VSCode were used as development tools to ensure version control and a smooth coding environment.
 
----
+### Component Diagram
+
+### Deployment Diagram
 
 ## Release Notes
 v. 1.0.0
