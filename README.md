@@ -1,8 +1,17 @@
 # Buzz Market
 #### Timothy Ninan
 
+---
 ## Summary
-Buzz Market is a web application that allows Georgia Tech students to buy and sell items. Users can create listings, chat with other users in real-time, and filter/sort listings.
+---
+
+The Buzz Market project aims to create a comprehensive web application that facilitates the buying and selling of goods for Georgia Tech students. The marketplace is designed to be responsive and interactive, providing a seamless experience across different devices.
+
+By enabling students to list and browse items within a verified ecosystem, we hope to foster a sense of trust and enhance on-campus commerce. The marketplace addresses common pain points such as inefficient communication, lack of transparency, and accessibility issues in existing informal trading platforms. While existing platforms like Facebook Marketplace, Craigslist, and OfferUp serve similar purposes, Buzz Market differentiates itself by tailoring its functionality to the needs of Tech students.
+
+Flask in Python was used to create a RESTful backend API, ensuring robust communication pathways with Google Cloud Firestore, a NoSQL database, and Google Cloud Storage buckets for hosting images. Google Cloud Platform and App Engine serve as a scalable backend infrastructure. The frontend was developed using React, combined with HTML, CSS, and JavaScript to create a dynamic and interactive user interface. Bootstrap was integrated as a frontend library to streamline the design process. GitHub and VSCode were used as development tools to ensure version control and a smooth coding environment.
+
+---
 
 ## Release Notes
 v. 1.0.0
@@ -23,11 +32,6 @@ v. 1.0.0
 
 ### Known Bugs
 - Some image types (.HEIC, .webp) are not displayed correctly
-
-### GCP Deployment link
-- Here is the deployment link: https://world-dot-buzz-market-440617.ue.r.appspot.com/
-- The code under released tag runs locally, unlike the link above which is deployed to GCP.
-
 
 ## Install Guide
 
