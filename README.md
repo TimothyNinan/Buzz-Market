@@ -1,0 +1,142 @@
+# Buzz Market
+#### Team 11
+
+## Team Members
+- Joshua Todd Jones
+- Cameron Blake Minix
+- Timothy Samuel Ninan
+- Maria Ponce Martin-Gromaz
+- Steve Shi
+
+## Release Notes
+v. 1.0.0
+
+### New Software Features
+- Login/Signup
+- Create Listings with Images
+- Sort, Filter, and Search Listings
+- View Listing Details
+- Add Listings to Watchlist
+- Chatbox Page for User-to-User Communication
+
+### Resolved Bugs
+- Fixed the main page shrinking when there are no listings
+- Fixed having unlimted cards per row on larger screens
+- Fixed dates and times not being displayed correctly
+- Fixed Chat not updating in real-time
+
+### Known Bugs
+- Some image types (.HEIC, .webp) are not displayed correctly
+
+### GCP Deployment link
+- Here is the deployment link: https://world-dot-buzz-market-440617.ue.r.appspot.com/
+- The code under released tag runs locally, unlike the link above which is deployed to GCP.
+
+
+## Install Guide
+
+### Pre-requisites
+- Node.js
+- npm
+- Python
+- pip
+- VSCode (or any IDE that supports React and Python)
+
+### Dependent Libraries
+The following libraries are required to run the project.
+They all are either included in the project or can be installed using `pip install`.
+- React
+- Bootstrap
+- Flask
+- Flask-CORS
+- PyJWT
+- Google Cloud Storage
+- Firebase Admin
+
+### Download Instructions
+To download the project, clone the repository and navigate to the front-end and back-end directories.
+
+```
+git clone https://github.com/jjones634/cs3300proj2group11.git
+```
+
+### Installation of Actual Application
+
+#### Frontend
+Navigate to the frontend directory.
+```
+cd frontend
+```
+
+In the frontend directory, run the following to install dependencies:
+```
+npm install
+```
+
+#### Backend
+1. Navigate to the backend directory
+```
+cd backend
+```
+2. Run the following command to setup a virtual environment
+
+```
+python3 -m venv venv
+```
+
+3. Activate the virtual environment
+
+##### On Mac/Linux
+```
+source venv/bin/activate
+```
+
+##### On Windows
+First, check that your PowerShell execution policy
+is not Restricted. To do so, run the following command:
+```
+Get-ExecutionPolicy
+```
+If it is Restricted, you need to follow the following steps:
+
+1. Run PowerShell as Administrator
+
+2. In the PowerShell window that you have opened, run:
+```
+Set-ExecutionPolicy RemoteSigned
+```
+3. Confirm the change
+
+Once your PowerShell execution policy is set to RemoteSigned,
+run the following command:
+```bash
+venv\Scripts\activate
+```
+
+You should see `(venv)` in the terminal prompt.
+
+4. Install the dependencies
+```
+pip install -r requirements.txt
+```
+
+### Run Instructions
+
+#### Frontend
+In the front-end directory, run the following to start the development server:
+```
+npm run dev
+```
+
+Navigate to [http://localhost:5173/](http://localhost:5173/) to view the website.
+
+#### Backend
+
+In the backend directory, while the virtual environment is activated, run the following to start the development server:
+```
+python app.py
+```
+
+### Troubleshooting
+If you have issues in the backend, try reinstalling the dependencies.
+If issues persist, try reinstalling the virtual environment.

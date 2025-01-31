@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+body, .container, .card, .card-subtitle, .card-text {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, .card-title, .btn {
+    font-family: 'Oxanium', sans-serif;
+}
+
+.container {
+    padding: 20px;
+    background-color: #FFFFFF; /* White background */
+    min-width: 90vw;
+}
+
+.title {
+    color: #B3A369; /* Georgia Tech Gold */
+}
+
+.buzz-image {
+    margin-left: 20px;
+    height: 50px;
+}
+
+.card {
+    padding: 6px;
+    background-color: #B3A369;
+    border-radius: 10px;
+    width: calc(33.333% - 40px);
+    box-sizing: border-box;
+    color: #003057;
+    border: 1px solid #B3A369;
+    min-height: 400px;
+}
+
+.card-body {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100% - 150px);
+}
+
+.card-subtitle,
+.card-text {
+    /* color: #003057; */
+    color: #003057; /* White text */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.card-title {
+    color: #003057; /* Georgia Tech Navy */
+    cursor: pointer;
+    text-decoration: underline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.card-title:hover {
+    color: #002147; /* Darker Navy */
+}
+
+.hover-effect{
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+}
+
+.hover-effect:hover {
+    opacity: 0.9;
+}
+
+.row {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: #B3A369;
+}
+
+.btn-primary,
+.btn-outline-primary,
+.btn-outline-dark {
+    margin-top: 20px;
+    background-color: #B3A369 !important;
+    border-color: #B3A369 !important;
+    color: #FFFFFF !important;
+}
+
+.btn-primary:hover,
+.btn-outline-primary:hover,
+.btn-outline-dark:hover {
+    background-color: #9E8B3D !important; /* Darker Georgia Tech Gold */
+    border-color: #9E8B3D !important; /* Darker Georgia Tech Gold */
+    color: #FFFFFF !important;
+}
+
+.form-select {
+    margin-top: 10px;
+    font-size: 16px;
+    background-color: #FFFFFF; 
+    color: #003057; 
+}
+
+label {
+    color: #003057; 
+}
+
+.entire-page {
+    background-color: #002054; 
+    padding: 75px; 
+    min-height: 100%; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    border-radius: 12px;
+}

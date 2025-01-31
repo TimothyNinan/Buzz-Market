@@ -1,0 +1,8 @@
+flask
+flask-cors
+pyjwt
+google-cloud-storage
+firebase-admin
+selenium
+webdriver-manager
+pytest

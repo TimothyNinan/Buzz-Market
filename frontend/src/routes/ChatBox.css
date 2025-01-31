@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+.chatbox {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px; /* Increase width to accommodate two containers */
+    margin: 20px auto;
+    border-radius: 8px;
+    border: 1px solid #B3A369;
+    padding: 20px;
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+.user-list-container,
+.chat-container {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.user-list-container {
+    border-right: 1px solid #B3A369;
+    padding-right: 10px;
+}
+
+.user-list-container ul > li {
+    cursor: pointer;
+    color: #002054 !important;
+    text-decoration: underline;
+}
+
+.user-list-container h3 {
+    color: #B3A369;
+}
+
+.chat-container {
+    padding-left: 10px;
+}
+
+.chat-container h3 {
+    color: #B3A369;
+}
+
+.messages {
+    height: 300px;
+    overflow-y: scroll;
+    border: 2px solid #B3A369; 
+    border-bottom: 1px solid #B3A369; 
+    margin-bottom: 10px;
+    padding: 5px; 
+}
+
+input[type="text"] {
+    width: calc(100% - 90px);
+    padding: 5px;
+    margin-right: 5px;
+    border: 1px solid #B3A369;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    background-color: #B3A369;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Oxanium', sans-serif;
+}
+
+button:hover {
+    background-color: #9E8B3D;
+}
+
+.message-bubble {
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 70%;
+    display: inline-block;
+}
+
+.current-user {
+    background-color: #B3A369; /* Golden color */
+    color: white;
+    text-align: right;
+    float: right;
+    clear: both;
+}
+
+.other-user {
+    background-color: #E0E0E0; /* Grey color */
+    color: black;
+    text-align: left;
+    float: left;
+    clear: both;
+}
+
+.chat-page {
+    background-color: #002054; 
+    padding: 75px; 
+    min-height: 100%; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    border-radius: 12px;
+}
+
+@media (max-width: 600px) {
+    .chatbox {
+        flex-direction: column;
+    }
+}
