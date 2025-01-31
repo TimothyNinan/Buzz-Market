@@ -10,8 +10,10 @@ By enabling students to list and browse items within a verified ecosystem, we ho
 Flask in Python was used to create a RESTful backend API, ensuring robust communication pathways with Google Cloud Firestore, a NoSQL database, and Google Cloud Storage buckets for hosting images. Google Cloud Platform and App Engine serve as a scalable backend infrastructure. The frontend was developed using React, combined with HTML, CSS, and JavaScript to create a dynamic and interactive user interface. Bootstrap was integrated as a frontend library to streamline the design process. GitHub and VSCode were used as development tools to ensure version control and a smooth coding environment.
 
 ### Component Diagram
+![image](https://github.com/user-attachments/assets/65e400f2-bd1c-4e98-8932-8425e44f0fc9)
 
 ### Deployment Diagram
+![image](https://github.com/user-attachments/assets/fab59683-c1f4-4ec3-9501-2c2497380bd2)
 
 ## Release Notes
 v. 1.0.0
