@@ -1,12 +1,8 @@
 # Buzz Market
-#### Team 11
+#### Timothy Ninan
 
-## Team Members
-- Joshua Todd Jones
-- Cameron Blake Minix
-- Timothy Samuel Ninan
-- Maria Ponce Martin-Gromaz
-- Steve Shi
+## Summary
+Buzz Market is a web application that allows Georgia Tech students to buy and sell items. Users can create listings, chat with other users in real-time, and filter/sort listings.
 
 ## Release Notes
 v. 1.0.0
